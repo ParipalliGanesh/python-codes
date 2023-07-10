@@ -1,0 +1,8 @@
+v=int(input())
+w=int(input())
+if w<2 or w<v:
+    print("invalid") 
+else:
+    y=(w-2*v)//2
+t="TW ={} FW={}"
+print(t.format((v-y),(y)))
