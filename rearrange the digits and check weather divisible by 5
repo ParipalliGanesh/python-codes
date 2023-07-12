@@ -1,0 +1,11 @@
+# cook your dish here
+ts= int(input())
+for i in range(ts):
+    n= int(input())
+    s=str(input())
+    if "0" in s:
+        print("Yes")
+    elif "5" in s:
+        print("Yes")
+    else:
+        print("No")
