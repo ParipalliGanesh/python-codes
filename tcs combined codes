@@ -1,0 +1,19 @@
+x=int(input())
+arr=list(map(int,input().strip().split()))[:x]
+y=int(input())
+a=list(map(int,input().strip().split()))
+
+n=x-y
+m=arr[n:x+1]
+k=arr[0:n]
+m.extend(k)
+print(m)
+for i in range (0,x):
+    print(m[i])
+
+for i in range(0,2):
+    d=a[i]
+    c=m[d]
+    b=[]
+    b.append(c)
+    print(b)
